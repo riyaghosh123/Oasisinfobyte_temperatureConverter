@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Convertor</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Instrument+Serif:ital@1&family=Lato:wght@300;400&family=Playfair+Display&family=Poppins:wght@300&family=Protest+Riot&family=Roboto+Mono:wght@300&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    
+
+</head>
+<body>
+   
+        <div class="container">
+            <form id="calcTemp" onsubmit="calculateTemp(); return false">
+            <div class="heading">
+                Temperature Convertor
+            </div>
+           
+            <div class="con">
+                <div class="degree">
+                    <input type="number" name="temp" id="temp" value="0" placeholder="Degree">
+                    <hr class="hr2">
+                </div>
+                <div class="type">
+                    <div class="temp">
+                        <label for="temp-type">Type:</label>
+                        <select  name="temp_diff" id="temp_diff">
+                            <option value="cel">℃elsius</option>
+                            <option value="fah">℉ahrenheit</option>
+                           
+                        </select>
+                          
+                    </div>
+                    <hr class="hr2">
+                </div>
+            </div>
+            <input type="submit" name="temp" id="submit">
+            <h3>Result</h3>
+            <span id="result"></span>
+            <hr class="hr1">
+        </form>
+        </div>
+
+    
+    
+    <script src="index.js"></script>
+</body>
+</html>

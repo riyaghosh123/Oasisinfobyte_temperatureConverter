@@ -1,0 +1,132 @@
+*{
+    margin: none;
+    padding: none;
+}
+body{
+    height: auto;
+    background-image:url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 400px;
+    height: 360px;
+    margin-left: 250px;
+    margin-top: 150px;
+    background-color: rgba(233, 227, 227, 0.3);
+    background-blend-mode: overlay;
+    
+}
+.heading{
+    padding: 25px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: cursive;
+    color: #111111;
+    height: 25px;
+    margin-top: 30px;
+}
+h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #161616;
+    margin-top: 20px;
+    padding-left: 0px;
+    width: 100%;
+    text-align: center;
+}
+#result{
+    font-size: 27px;
+    margin-left: 100px;
+    color: #161616;
+}
+.hr1{
+    margin-left:25px;
+    margin-right: 25px;
+    margin-top: 15px;
+    border: 0.5px solid #2e2e2e;
+}
+.con{
+    height: 80px;
+    margin-top: 30px;
+    display: flex;
+}
+.degree{
+    width: 150px;
+    height: 40px;
+    margin-left: 25px;
+    
+}
+.degree input{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    background: none;
+    outline: none;
+    border: none;
+}
+.degree input::placeholder{
+    font-weight: 500;
+    color: #222121;
+}
+.hr2{
+    margin-top: 3px;
+    border: 0.5px solid #2e2e2e;
+}
+.type{
+    width: 170px;
+    height: 30px;
+    margin-left: 30px;
+    padding-top: 12px;
+    font-size: 20px;
+    
+    font-weight: 400;
+    color: #222121;
+   
+}
+.temp{
+    width: 170px;
+    height: 30px;
+    font-size: 20px;
+    display: flex;
+    font-weight: 400;
+    color: #222121;
+    position: relative;
+}
+#temp_diff{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    background: none;
+    border: none;
+    outline: none;
+}
+.select-
+#type{
+    background: none;
+    outline: none;
+    border: none;
+}
+.select span{
+    color: #222121;
+    font-weight: 500;
+    font-size: 20px;
+}
+#submit{
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-left: 160px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #242323;
+    
+    cursor: pointer;
+    background-color: rgba(233, 227, 227, 0.3);
+    background-blend-mode: overlay;
+}
+#submit:hover{
+    transform: scale(1.05);
+}
